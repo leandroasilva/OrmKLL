@@ -1,0 +1,9 @@
+{
+  "name": "OrmKLL",
+  "version": "0.0.1",
+  "description": "simple and small orm.",
+  "main": "index.js",
+  "repository": "git@github.com:leandroasilva/OrmKLL.git",
+  "author": "Leandro A Silva <halk_lenson@hotmail.com>",
+  "license": "MIT"
+}
