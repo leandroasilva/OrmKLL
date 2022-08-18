@@ -1,9 +1,21 @@
 {
-  "name": "OrmKLL",
+  "name": "ormjs",
   "version": "0.0.1",
-  "description": "simple and small orm.",
+  "description": "simple and small orm for nodejs.",
   "main": "index.js",
-  "repository": "git@github.com:leandroasilva/OrmKLL.git",
+  "repository": "git@github.com:leandroasilva/orm-js.git",
   "author": "Leandro A Silva <halk_lenson@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./example/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "@faker-js/faker": "^7.4.0",
+    "mysql": "^2.18.1"
+  },
+  "dependencies": {}
 }
